@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Estimathon Scorer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+    <div class="max-w-4xl mx-auto p-8">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">Estimathon Scorer</h1>
+            <p class="text-gray-600">Upload your results CSV to see the magic happen ✨</p>
+        </div>
+        <form action="/" method="post" enctype="multipart/form-data"
+            class="bg-white p-8 rounded-xl shadow-lg transition-all hover:shadow-xl">
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-semibold mb-2">Upload Results File</label>
+                <input type="file" name="file" accept=".csv" required
+                    class="block w-full text-gray-700 bg-gray-50 rounded-lg border border-gray-300 cursor-pointer focus:outline-none p-4">
+            </div>
+            <button type="submit"
+                class="w-full gradient-bg text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-all">
+                Calculate Scores
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
