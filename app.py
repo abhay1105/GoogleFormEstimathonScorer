@@ -14,32 +14,56 @@ QUESTIONS_AND_ANSWERS = {
         "answer": 52
     },
     "Q2": {
-        "text": "What is the area, in square feet, of UC Berkeley's campus?",
+        "text": "What is the area, in square feet, of UC Berkeley's main campus?",
         "answer": 7753680
     },
     "Q3": {
         "text": "In 2023 specifically, how many employees did the Blue Chip company with headquarters closest to Berkeley have?",
-        "answer": 40212
+        "answer": 45600
     },
     "Q4": {
         "text": "How many career receiving yards do Christian McCaffrey, Deebo Samuel Sr., and Brock Purdy have combined?",
         "answer": 9258
     },
     "Q5": {
-        "text": "How many pounds of weed were seized at the US-Mexico border in fiscal year 2023-24?",
-        "answer": 46952
+        "text": "How many pounds of marijuana were seized by U.S. Border Patrol in fiscal year 2023?",
+        "answer": 42314
     },
     "Q6": {
         "text": "How many people, in total, attended the 2010 FIFA World Cup in South Africa?",
         "answer": 3178856
     },
     "Q7": {
-        "text": "How much time, in minutes, would a flight going from Boston --> Barcelona --> Beijing --> Bangkok --> Busan spend in the air?",
+        "text": "How much time, in minutes, would a flight going from Boston to Barcelona to Beijing to Bangkok to Busan spend in the air?",
         "answer": 1725
+    },
+    "Q8": {
+        "text": "How much money, in quarters, would you have needed to buy 10,000 shares of Microsoft on the day of its IPO back in 1986?",
+        "answer": 840000
+    },
+    "Q9": {
+        "text": "On average, how many gallons of crude oil did Venezuela export per day in 2014?",
+        "answer": 1964861
+    },
+    "Q10": {
+        "text": "How long would it take someone, in seconds, to run from Berkeley, CA to Stanford, CA if they ran at Usain Bolt's fastest recorded speed?",
+        "answer": 5441
+    },
+    "Q11": {
+        "text": "If you were to take the AUM of Citadel at the beginning of 2025 and convert it to one-dollar bills, how many American football fields long would that stack of bills be?",
+        "answer": 64699
+    },
+    "Q12": {
+        "text": "How many free throws has Steph Curry missed in his entire career to date?",
+        "answer": 385
+    },
+    "Q13": {
+        "text": "What is the total number of characters (punctuation and spacing included) of every movie title in IMDB's top 250?",
+        "answer": 4070
     }
 }
 
-num_questions = 7
+num_questions = 13
 
 def calculate_interval_score(lower, upper, true_answer):
     """Calculate if an interval is correct and its score contribution"""
